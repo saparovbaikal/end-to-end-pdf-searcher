@@ -9,7 +9,7 @@ def clean_text(text):
     return text.strip()
 
 
-def extract_text_from_pdf(pdf_location):
+def extract_text(pdf_location):
     print("start loading")
     with pdfplumber.open(pdf_location) as pdf:
         text = ""

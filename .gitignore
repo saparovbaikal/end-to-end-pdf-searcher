@@ -1,0 +1,4 @@
+.env
+.pdf
+vector_db/
+models/
